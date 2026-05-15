@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d0b3d37c0fda48240b08bd68a33a757a, type: 2}
     - target: {fileID: 3840068274365429622, guid: 4ab07b93f8238274db898ca2e6da296b, type: 3}
       propertyPath: cost
-      value: 50
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 4427604959974244100, guid: 4ab07b93f8238274db898ca2e6da296b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7824901277285134271, guid: 4ab07b93f8238274db898ca2e6da296b, type: 3}
       propertyPath: m_Name
-      value: Tank Variant
+      value: Tank
       objectReference: {fileID: 0}
     - target: {fileID: 7824901277285134271, guid: 4ab07b93f8238274db898ca2e6da296b, type: 3}
       propertyPath: m_TagString
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tank
   enemyTag: BluePlayer
-  moveSpeed: 2
+  moveSpeed: 1
   attackRange: 2
-  damage: 15
+  damage: 5
   attackCooldown: 1.5
